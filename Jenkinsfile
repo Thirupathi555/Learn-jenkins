@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 pipeline {
     agent {
         label 'AGENT-1'
+=======
+// 
+
+
+pipeline {
+    agent {
+        label 'sagi'
+>>>>>>> 6edce6b (jenkins)
     }
     options{
         timeout(time: 10, unit: 'MINUTES')
@@ -81,4 +90,8 @@ pipeline {
             echo "This section run when pipeline failure"
         }
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 6edce6b (jenkins)
